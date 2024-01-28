@@ -1,7 +1,7 @@
 
 public class LeapYear {
     public static void main(String[] args) {
-        System.out.println(isLeapYear(1924));
+        System.out.println(isLeapYear(2020));
     }
 
 
