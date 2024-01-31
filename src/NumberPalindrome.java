@@ -4,8 +4,7 @@ public class NumberPalindrome {
     }
 
     public static boolean isPalindrome(int number) {
-        boolean isPlain = false;
-        int plainNumber = number;
+        int plainNumber = 0 ;
         int reverse = 0;
         int lastDigit = 0;
         while (number != 0) {
