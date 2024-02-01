@@ -13,7 +13,8 @@ public class MinAndMax {
                 int number = Integer.parseInt(stringNumber);
                 if (number < minNumber ){
                     minNumber = number;
-                } else if (number > maxNumber) {
+                }
+                if (number > maxNumber) {
                     maxNumber = number;
                 }
             } catch (NumberFormatException e) {
@@ -21,6 +22,6 @@ public class MinAndMax {
             }
 
         } while (isTrue);
-        System.out.println(" Min number is " + minNumber + "Max number is " + maxNumber);
+        System.out.println(" Min number is " + minNumber + " Max number is " + maxNumber);
     }
 }
